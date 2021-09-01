@@ -1,32 +1,61 @@
+reset{
+  width: 0 auto;
+}
+
 html {
     font-family: "Raleway", "Helvetica", sans-serif;
     font-weight: 400;
     color: #2F3442;
     height: 100%;
     background-color: #FFFFFF;
+    
 }
 
-.icon {color: #BCD2DA;}
+.icon{ 
+  color: #BCD2DA;
+  size:20px; 
 
+}
 .card {
     /* display, flex-direction */
-    border: 1px solid #CAD0D2;
+    border: 1rem solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+   
+  
+      
 }
 
 .card__description {
     /* display, flex-direction, justify-content, align-items */
-    padding: 15px 0;
+    padding: 40nem ;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top:1px;
+    
 }
 
-.card__descriptionIcon {font-size: 32px; margin-bottom: 10px;}
+.card__descriptionIcon {
+  font-size: 32px; 
+  margin-bottom: 10px;
+   
+}
 
 .card__descriptionText {
     color: #57727C;
-    font-size: 12px;
+    font-size: 8px;
     text-align: center;
-    max-width: calc(100% - 30px);
+    max-width: 5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center ;
 }
 
 .card__price {
@@ -37,27 +66,66 @@ html {
     padding: 5px 15px;
     border-top: 1px solid #D7DBDD;
     background-color: #EEF3F5;
+    flex-grow: 0;
+  
 }
 
 .cardGroup {
     /* display */
-  
+    margin: 1rem auto;
+    height:150px;
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
   }
   
     .cardGroup__card {
       /* flex-grow, flex-shrink, flex-basis */
-  
+      background-color:;
       border: none;
       border-radius: 0;
+      display: flex;
+      flex-grow:3;
+      flex-shrink:3;
+      flex-basis:3;
+      flex-wrap: wrap;
+        
     }
   
     .cardGroup__card {
       border-left: 1px solid #D7DBDD;
+      display:flex;
+     
     }
   
     .cardGroup__cardDescription {
+      display:flex;
+      justify-content:center;
+      flex-direction:;
+      flex-grow: 3;
+      flex-shrink:3;
+      flex-basis:3;
       /* flex-grow, flex-shrink, flex-basis */
     }
+
+@media (max width: 710px){
+  .body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    }
+  }
+
+@media (max width: 320px){
+  .body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    }
+  }
