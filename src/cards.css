@@ -12,8 +12,8 @@ html {
 }
 
 .icon{ 
-  color: #BCD2DA;
-  size:20px; 
+    color: #BCD2DA;
+    size:20px; 
 
 }
 .card {
@@ -21,7 +21,6 @@ html {
     border: 1rem solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
-    background-color: ;
     display: flex;
     flex-direction: column;
     display: flex;
@@ -72,7 +71,7 @@ html {
 
 .cardGroup {
     /* display */
-    margin: 1rem auto;
+    margin: 12rem auto;
     height:150px;
     border: 1px solid #CAD0D2;
     border-radius: 4px;
