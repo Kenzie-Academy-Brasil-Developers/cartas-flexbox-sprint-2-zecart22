@@ -73,6 +73,7 @@ html {
     /* display */
     width:75%;
     margin: 12rem auto;
+    width:710px;
     height:150px;
     border: 1px solid #CAD0D2;
     border-radius: 4px;
@@ -112,20 +113,9 @@ html {
       /* flex-grow, flex-shrink, flex-basis */
     }
 
-@media (max width: 710px){
-  .body{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    }
-  }
+@media only screen and (win-width:400px){
+	.cardGroup{
+	width: 320px;
+}
 
-@media (max width: 320px){
-  .body{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    }
-  }
+}
